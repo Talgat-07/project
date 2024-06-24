@@ -30,6 +30,12 @@ module.exports = {
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "arrow-spacing": ["error", { "before": true, "after": true }],
     "no-console": 'warn',
+    "func-style": ["error", "expression"],
+    "prefer-arrow-callback": ["error", { "allowNamedFunctions": false }],
+    "arrow-body-style": ["error", "as-needed"],
+    "arrow-parens": ["error", "always"],
+    "space-infix-ops": ["error"],
+    "space-before-function-paren": ["error", "never"],
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
