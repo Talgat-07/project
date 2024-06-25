@@ -1,6 +1,7 @@
-export const App = () => {
-  const hello = "Hello, World!";
+export const App = () =>{
+  const hello = 'Hello, World!';
+  const arr= [ "hello"];
   return (
-    <div>{hello}</div>
+    <div><h1>{hello}</h1>{arr[0]}</div>
   );
 };
