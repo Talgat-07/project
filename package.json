@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "lint-staged": {
-    "*.js": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "*.jsx": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
+    "*.js": "npm run lint",
+    "*.jsx": "npm run lint"
   },
   "scripts": {
     "dev": "vite",
