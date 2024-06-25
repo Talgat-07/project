@@ -20,7 +20,7 @@ module.exports = {
     'prefer-const': 'error',
     'no-undef': 'error',
     'no-unused-vars': 'error',
-    "space-in-parens": ["error", "always"],
+    // "space-in-parens": ["error", "always"],
     "object-curly-spacing": ["error", "always"],
     "array-bracket-spacing": ["error", "always"],
     "space-unary-ops": 2,
