@@ -3,9 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "lint-staged": {
-    "*.js": "npm run lint"
-  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,11 +10,6 @@
     "lint:fix": "eslint . --ext js,jsx --fix --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "prepare": "husky install"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -32,7 +24,6 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "husky": "^8.0.3",
-    "lint-staged": "^15.2.7",
     "vite": "^5.3.1"
   }
 }
