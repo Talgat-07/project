@@ -4,8 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "lint-staged": {
-    "*.js": "npm run lint",
-    "*.jsx": "npm run lint"
+    "*.js": "npm run lint"
   },
   "scripts": {
     "dev": "vite",
